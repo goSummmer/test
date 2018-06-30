@@ -10,10 +10,10 @@ spring:
   # 数据库连接配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://106.14.161.16:3306/test?characterEncoding=utf8
+    url: jdbc:mysql://106.14.161.16/demo?charactEncoding=utf-8&useSSL=false
     username: root
     password: 123456
-    database: MySQL
+    database: MYSQL
     show-sql: true
     hibernate: org.hibernate.cfg.ImprovedNamingStrategy
     name: druid
@@ -62,8 +62,13 @@ spring:
     # 连接超时时间（毫秒）
     timeout: 30000
   jpa:
-      database-platform: org.hibernate.dialect.MySQL5Dialect
+    properties:
+          hibernate.format_sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
       dialect: org.hibernate.dialect.MySQL5Dialect
+    database: mysql
+    show-sql: true
   # ES集群配置
   elasticsearch:
     bboss:
@@ -75,7 +80,7 @@ spring:
             dateFormat: yyyy.MM.dd
             discoverHost: false
             rest:
-                hostNames: 10.21.20.168:9200
+              hostNames: 10.21.20.168:9200
             showTemplate: true
             timeZone: Asia/Shanghai
             ttl: 2.0
