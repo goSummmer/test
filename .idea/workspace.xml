@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c89ec32e-761f-4c3f-b445-3d5f660a8740" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/asus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
-    </list>
+    <list default="true" id="c89ec32e-761f-4c3f-b445-3d5f660a8740" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,17 +18,8 @@
       <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2332">
+            <state relative-caret-position="2200">
               <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-local.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="106" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -220,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530373442079</updated>
-      <workItem from="1530373446174" duration="1222000" />
+      <workItem from="1530373446174" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="基本架构完成。">
       <created>1530373564098</created>
@@ -236,11 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530373854489</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="基本架构完成。">
+      <created>1530374898349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530374898349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1222000" />
+    <option name="totallyTimeSpent" value="1518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -257,13 +248,13 @@
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32874355" />
+      <window_info anchor="bottom" id="Messages" weight="0.66781414" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Version Control" weight="0.48364887" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9776248" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.48364887" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.545611" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -314,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
+        <state relative-caret-position="2200">
           <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
         </state>
       </provider>
