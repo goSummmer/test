@@ -202,7 +202,7 @@ public class UserService {
      * @param id
      * @return
      */
-    @CacheEvict(value = "user")
+
     public long delete(final Integer id){
         logger.info("删除用户id= "+ id);
         QUserEntity qUserEntity = QUserEntity.userEntity;

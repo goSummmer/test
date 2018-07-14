@@ -115,9 +115,6 @@ public class StrmanUtil {
         String s27 = Strman.hexEncode("A");
         System.out.println("hexEncode:" + s27); // result => "0041"
 
-        // inequal 测试两个字符串是否相等
-        boolean s28 = Strman.inequal("a", "b");
-        System.out.println("inequal:" + s28); // result => "true"
 
         // insert 将子字符串插入到字符串某索引位置处
         String s29 = Strman.insert("fbar", "oo", 1);

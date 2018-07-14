@@ -54,8 +54,9 @@ public class UserController {
     @ApiOperation(value = "新增或修改用户信息", notes = "根据传过来的userEntity信息进行更新或新增")
     @ApiImplicitParam(name = "userEntity", value = "用户详细实体类userEntity", required = true, dataType = "UserEntity")
     @RequestMapping(value = "/user", method = RequestMethod.POST)
-    public UserEntity saveOrUpdate(UserEntity userEntity){
-        return userRepository.save(userEntity);
+    public List<UserEntity> saveOrUpdate(UserEntity userEntity){
+        userRepository.save(userEntity);
+        return userRepository.findAll();
     }
 
     @ApiOperation(value = "删除用户的信息", notes = "根据url的id删除用户的信息")

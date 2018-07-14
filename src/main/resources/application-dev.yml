@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
 # 热部署生效
 spring:
   devtools:
@@ -10,7 +10,7 @@ spring:
   # 数据库连接配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://106.14.161.16/demo?charactEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://106.14.161.16/demo?characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
     database: MYSQL
@@ -100,6 +100,20 @@ spring:
             timeToLive: 3600000
             timeoutConnection: 400000
             timeoutSocket: 400000
+  #邮箱信息配置
+  mail:
+    username: 294571638@qq.com
+    password: qvmerrwjcnnobjbc
+    host: smtp.qq.com
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+
+# 图片存储路径
+prop:
+  spring-folder: G:\github\test\src\main\resources\static\images\
 
 # 设置logger打印控制台jpa sql语句
 logging:
